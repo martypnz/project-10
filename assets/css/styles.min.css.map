@@ -1,1 +1,18 @@
-{"version":3,"sourceRoot":"","sources":["../scss/_variables.scss","../scss/_typography.scss","../scss/_component.scss","../scss/_layout.scss"],"names":[],"mappings":"AAAQ,+ECER,GACE,MDDM,QCEN,kBACA,cACA,0BACA,kBACA,QACA,SACD,gBCDD,KACI,gEACA,2BACA,4BACA,sBCbJ,WACI,iBACA,cACA","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');\n\n$brand: #9f2a2a;\n$font:'Roboto', sans-serif;;\n","@use \"./variables\" as v;\n\nh1{\n  color: v.$brand;\n  position: absolute;\n  font-size: 8vw;\n  text-transform: capitalize;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n translate: -50%-50%;\n //vw view hight vh view hight\n\n}\n\n\n\n\n\n\n","//.background {\n   // width: 700px;\n   // height: 700px;\n   // border: 3px dashed;\n  //  background-image: url(\"https://picsum.photos/id/1050/1000/300\");\n  //  background-repeat: no-repeat;\n  //  background-size: cover;\n//}\n\nbody{\n    background-image: url(\"https://picsum.photos/id/1055/2560/1440\");\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n}",".container{\n    max-width: 1500px;\n    margin: 0 auto;\n    padding: 0 10px;\n}"]}
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../scss/_variables.scss",
+    "../scss/_typography.scss",
+    "../scss/_component.scss",
+    "../scss/_layout.scss"
+  ],
+  "names": [],
+  "mappings": "AAAQ,+ECER,GACE,MDDM,QCEN,kBACA,cACA,0BACA,kBACA,QACA,SACA,gBCVF,YACI,YACA,aACA,iBAQA,yDCXJ,WACI,iBACA,cACA",
+  "sourcesContent": [
+    "@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');\n\n$brand: #9f2a2a;\n$font:'Roboto', sans-serif;;\n",
+    "@use \"./variables\" as v;\n\nh1 {\n  color: v.$brand;\n  position: absolute;\n  font-size: 8vw;\n  text-transform: capitalize;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  translate: -50%-50%;\n  //vw view hight vh view hight\n\n}",
+    ".background {\n    width: 700px;\n    height: 700px;\n    border: 3px solid;\n    // background: linear-gradient(red,black);\n    //background: linear-gradient(#f11,#000,#f0f,#ff1);\n    //background: linear-gradient(#f11 50%,#ff0 50%);\n    //background: linear-gradient(red,red 20%,black 20%,black 50%,\n    //blue 50%, blue 80%, yellow 80%, yellow 100%);\n    //background: linear-gradient(to top,red,blue);\n    //background: linear-gradient(to left,red,blue);\n    background: conic-gradient(red 20%, blue 50%, yellow 20%);\n}\n\n",
+    ".container{\n    max-width: 1500px;\n    margin: 0 auto;\n    padding: 0 10px;\n}"
+  ]
+}

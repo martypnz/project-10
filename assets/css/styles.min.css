@@ -1,1 +1,22 @@
-@import"https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";h1{color:#9f2a2a;position:absolute;font-size:8vw;text-transform:capitalize;position:absolute;top:50%;left:50%;translate:-100%}body{background-image:url("https://picsum.photos/id/1055/2560/1440");background-position:center;background-repeat:no-repeat;background-size:cover}.container{max-width:1500px;margin:0 auto;padding:0 10px}/*# sourceMappingURL=styles.min.css.map */
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";
+h1 {
+  color: #9f2a2a;
+  position: absolute;
+  font-size: 8vw;
+  text-transform: capitalize;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -100%;
+}
+.background {
+  width: 700px;
+  height: 700px;
+  border: 3px solid;
+  background: conic-gradient(red 20%, blue 50%, yellow 20%);
+}
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 10px;
+} /*# sourceMappingURL=styles.min.css.map */

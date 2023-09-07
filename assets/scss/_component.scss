@@ -1,15 +1,14 @@
-//.background {
-   // width: 700px;
-   // height: 700px;
-   // border: 3px dashed;
-  //  background-image: url("https://picsum.photos/id/1050/1000/300");
-  //  background-repeat: no-repeat;
-  //  background-size: cover;
-//}
-
-body{
-    background-image: url("https://picsum.photos/id/1055/2560/1440");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.background {
+    width: 700px;
+    height: 700px;
+    border: 3px solid;
+    // background: linear-gradient(red,black);
+    //background: linear-gradient(#f11,#000,#f0f,#ff1);
+    //background: linear-gradient(#f11 50%,#ff0 50%);
+    //background: linear-gradient(red,red 20%,black 20%,black 50%,
+    //blue 50%, blue 80%, yellow 80%, yellow 100%);
+    //background: linear-gradient(to top,red,blue);
+    //background: linear-gradient(to left,red,blue);
+    background: conic-gradient(red 20%, blue 50%, yellow 20%);
 }
+
