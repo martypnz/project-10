@@ -1,0 +1,29 @@
+@use "./variables" as v;
+
+h1{
+    color: v.$brand;
+    position: relative;
+    animation-name: drop;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes drop {
+    0%{
+        top:0;
+        left:0;
+    }
+    25%{
+        top:90%;
+        left:0;
+    }
+    50%{
+        left: 90%;
+        top: 90%;
+    }
+    100%{
+        left: 90%;
+        top: 0%;
+    }
+}
